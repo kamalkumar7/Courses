@@ -1,0 +1,88 @@
+.coursebox{
+    flex: 0 28%;
+    height: 445px;
+    border-radius: 15px;
+    margin-bottom: 5%; /* (100-32*3)/2 */
+    background-color: rgb(177, 177, 224);
+    box-shadow: 0px 0px 5px 3px grey;
+       
+
+}
+
+
+
+.top_coursebox{
+    height: 50%;
+    /* border-top: 2px solid black; */
+
+}
+
+.bottom_coursebox{
+    height: 25%;
+    border-top: 0.5px solid rgb(45, 48, 54);
+}
+
+.class_detail{
+    display: flex;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+.age{
+    margin-left: auto;
+    margin-right: 5px;
+}
+.class_no{
+    margin-left: 2px;
+}
+
+.img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.course_detail{
+    font-family:'Segoe UI';
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+
+.btn_div{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button {
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 3rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+  }
+  
+  @media (min-width: 768px) {
+    .button {
+      padding: 0 2.6rem;
+    }
+  }

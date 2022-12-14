@@ -1,0 +1,55 @@
+.courseHeader{
+    height: 100px;
+    /* background-color: blueviolet; */
+    
+    margin-bottom: 40px;
+    /* margin-top: 20px; */
+
+    
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    vertical-align: auto;
+
+}
+/* .courseHeaderBox{
+    
+    width: 200px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 1px solid pink ;    
+    
+
+    
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.courseHeaderBox {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
+
+h1 {
+  text-transform: uppercase;
+	background-image: linear-gradient(to right top, #f70935, #3cb4ff, #c650ac, #be69a3, rgb(241, 252, 119));
+   background-size: 40% auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-family: 'Titan One';
+  font-size: 4vw;
+  animation: gradientAnim 7.5s ease  alternate infinite;
+}
+
+
+@keyframes gradientAnim {
+  to {
+    background-position: 100% top;
+  }
+}
